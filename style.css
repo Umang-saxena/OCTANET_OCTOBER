@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .text-mid {
@@ -43,6 +44,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
 /* Hero Section */
 .hero-section img{
     width:100vw;
@@ -89,3 +91,42 @@ nav a:hover {
     background-color: grey ;
     text-decoration: underline;
   }
+
+/* Cards */
+  .card{
+    float:left;
+    width:40%;
+    margin: 5%;
+  }
+  .inner-card{
+    float:left;
+    width:50%;
+    padding-right: 20px;
+  }
+  .inner-card p{
+    font-size: 1.5rem;
+  }
+
+  /* Footer  */
+
+.footer-content {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-content a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-content a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
