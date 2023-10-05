@@ -43,3 +43,49 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+/* Hero Section */
+.hero-section img{
+    width:100vw;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+.buttons-area{
+    position: absolute;
+    top: 50vh;
+    left:0;
+    bottom: 10%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.hero-button{
+    display: block;
+    margin: auto;
+    color: black;
+    font-size: 1.5em;
+}
+.buttons-area ul {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 25%;
+}
+.buttons-area h2{
+    text-align: center;
+}
+
+.buttons-area ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.buttons-area ul li button {
+    display: block;
+    margin: 0 auto;
+    height: 2rem;
+  }
+.buttons-area ul li button:hover {
+    color: red;
+    background-color: grey ;
+    text-decoration: underline;
+  }
