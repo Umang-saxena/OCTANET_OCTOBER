@@ -1,0 +1,81 @@
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size: 1.8rem;  
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white !important;
+
+}
+body{
+    font-size: 2rem;
+    height: 100vh;
+    background: hsla(152, 100%, 50%, 1);
+    background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+    background-repeat: no-repeat;
+}
+/* Navbar */
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav-list li{
+    margin: 2rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black ;
+}
+.nav-list li a:hover {
+    text-decoration: underline;
+    color: white; 
+    
+}
+/* Contents Box */
+.contents{
+    margin: 0.3rem ;
+    border: 2px solid black;
+
+}
+.submit-button{
+    border-radius: 10px;
+    background-color: rgb(214, 42, 42);
+    color: yellow;
+    font-size: 1.5rem;
+}
+.add-task{
+    margin: 1rem;
+}
+.input-task{
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.submit-button:hover{
+    color: red;
+    background-color: yellow;
+}
+
+/* Footer */
+.footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.3rem !important;
+}
