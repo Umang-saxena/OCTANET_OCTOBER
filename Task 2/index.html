@@ -6,6 +6,8 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="./static//style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./static/script.js"></script>
+
 </head>
 <body>
     <div class="navbar">
@@ -18,11 +20,13 @@
         <h1>To DO List</h1>
         <div class="contents">
             <p>Tasks</p>
-            <ul class="display-contents"></ul>
+            <ul class="display-contents">
+
+            </ul>
         </div>
         <div class="add-task">
-            <input class="input-task"  placeholder="Add Task" type="text">
-            <button class="submit-button" type="submit">Add Task</button>
+            <input class="input-task" placeholder="Add Task" type="text">
+            <button  class="submit-button" type="button" onclick={handleChange()}>Add task</button>
         </div>
     </div>
     <div class="footer">

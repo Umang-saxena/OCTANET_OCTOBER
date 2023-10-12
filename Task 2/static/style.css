@@ -20,7 +20,6 @@ h1{
 body{
     font-size: 2rem;
     height: 100vh;
-    background: hsla(152, 100%, 50%, 1);
     background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
@@ -56,6 +55,7 @@ body{
     background-color: rgb(214, 42, 42);
     color: yellow;
     font-size: 1.5rem;
+    margin: 0.5rem ;
 }
 .add-task{
     margin: 1rem;
@@ -68,6 +68,9 @@ body{
     color: red;
     background-color: yellow;
 }
+.display-contents{
+    list-style-type: none;
+}
 
 /* Footer */
 .footer {
@@ -77,5 +80,5 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 0.3rem !important;
+    font-size: 1.5rem !important;
 }
